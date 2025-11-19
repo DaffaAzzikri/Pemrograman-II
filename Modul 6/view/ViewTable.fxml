@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tableMahasiswa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="226.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="controller.Controller">
+  <columns>
+    <TableColumn fx:id="colNim" prefWidth="75.0" text="NIM" />
+    <TableColumn fx:id="colNama" prefWidth="75.0" text="Nama" />
+  </columns>
+</TableView>
